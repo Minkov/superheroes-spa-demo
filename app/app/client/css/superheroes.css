@@ -1,0 +1,40 @@
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.list .list-item {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 24%;
+    padding: 0.5%;
+    position: relative;
+    background-color: #000;
+    vertical-align: bottom;
+}
+
+.list .list-item img {
+    width: 100%;
+}
+
+.list .list-item .content {
+    width: 100%;
+    padding: 25px 0;
+
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: rgba(0, 0, 0, 0.7);
+
+    font-size: 1.1em;
+    color: #fff;
+    text-align: center;
+}

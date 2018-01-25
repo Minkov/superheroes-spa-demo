@@ -1,0 +1,22 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true
+    },
+    "extends": [
+        "jquery"
+    ],
+    "globals": {
+        "require": false,
+        "describe": false,
+        "it": false,
+        "Promise": false,
+        "beforeEach": false,
+        "afterEach": false,
+        "before": false,
+        "after": false,
+        "module": false,
+        "$": false,
+        "jQuery": false
+    }
+}
