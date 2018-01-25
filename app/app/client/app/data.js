@@ -11,14 +11,7 @@
     };
 
     var createSuperhero = function( name, secretIdentity, bio, imgUrl ) {
-        var body = {
-            name: name,
-            secretIdentity: secretIdentity,
-            bio: bio,
-            imgUrl: imgUrl
-        };
-
-        return http.postJson( URL, body );
+        
     };
 
     scope.data = {

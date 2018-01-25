@@ -1,11 +1,11 @@
 ( function( scope ) {
-    var makeJsonRequest = function( url, method, data ) {
+    var makeJsonRequest = function( url, method, body ) {
         return new Promise( ( resolve, reject ) => {
             $.ajax( {
                 url: url,
                 method: method,
                 contentType: "application/json",
-                data: JSON.stringify( data ),
+                data: JSON.stringify( body ),
                 success: resolve,
                 error: reject
             } );
@@ -17,8 +17,8 @@
     };
 
     var postJson = function( url, body ) {
-        return makeJsonRequest( url, "POST", body );
-    };
+        
+    }
 
     scope.http =  {
         getJson: getJson,
