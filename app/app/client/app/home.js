@@ -31,11 +31,12 @@
     };
 
     $( function() {
+        loader.show();
         data.getSuperheroes()
             .then( function( superheroes ) {
                 var $list = createSuperheroesList( superheroes );
                 $( "#root" ).html( $list );
+                loader.hide();
             } );
-
     } );
 } )();

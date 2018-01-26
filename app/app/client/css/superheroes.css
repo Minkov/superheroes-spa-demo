@@ -23,18 +23,33 @@
 }
 
 .list .list-item .content {
+    position: absolute;
     width: 100%;
     padding: 25px 0;
-
     display: block;
-
-    position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
-
     background: rgba(0, 0, 0, 0.7);
-
     font-size: 1.1em;
     color: #fff;
     text-align: center;
+}
+
+.btn {
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    background: #999;
+}
+
+label,
+input {
+    padding: 5px 15px;
+    margin: 0;
 }

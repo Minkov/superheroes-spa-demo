@@ -11,7 +11,7 @@
     };
 
     var createSuperhero = function( name, secretIdentity, bio, imgUrl ) {
-        
+        return http.postJson( URL, { name, secretIdentity, bio, imgUrl } );
     };
 
     scope.data = {

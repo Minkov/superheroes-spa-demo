@@ -11,20 +11,45 @@
     <link rel="stylesheet" href="/public/css/nav.css">
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    
+
     <script src="/public/app/http.js"></script>
     <script src="/public/app/data.js"></script>
-    <script src="/public/app/app.js"></script>
+    <script src="/public/app/create.js"></script>
 </head>
 
 <body>
     <nav class="nav">
         <ul>
-            <li ><a href="/">List</a></li>
-            <li class="active"><a href="/create">Create</a></li>
+            <li>
+                <a href="/">List</a>
+            </li>
+            <li class="active">
+                <a href="/create">Create</a>
+            </li>
         </ul>
     </nav>
     <div id="root">
+        <h1>Create a superhero</h1>
+        <div class="container">
+            <div>
+                <input id="tb-name" placeholder="Name:">
+            </div>
+            <div>
+                <input id="tb-secret-identity" placeholder="Secret Identity">
+            </div>
+            <div>
+                <input id="tb-bio" placeholder="Bio">
+            </div>
+            <div>
+                <input id="tb-imgUrl" placeholder="Image">
+            </div>
+        </div>
+        <div>
+            <a href="#" id="btn-create" class="btn">Create</a>
+        </div>
+        <div>
+            <img id="preview" />
+        </div>
     </div>
 </body>
 

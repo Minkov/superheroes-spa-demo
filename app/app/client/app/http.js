@@ -17,8 +17,8 @@
     };
 
     var postJson = function( url, body ) {
-        
-    }
+        return makeJsonRequest( url, "POST", body );
+    };
 
     scope.http =  {
         getJson: getJson,

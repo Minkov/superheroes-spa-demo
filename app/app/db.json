@@ -69,6 +69,27 @@
       "bio": "A prodigy ahead of her time? Check. Fought toe-to-toe with Gotham’s most unsavory? Double-check. Bailed out the Dark Knight on countless occasions? Capital C check.\r\n\r\nBatgirl is Barbara Gordon, a confident young woman as committed to justice as her father, Gotham City’s top cop Commissioner Gordon. But when her overprotective Dad forbids her from joining the force, her admiration of Batman leads her to rebel the way crime-fighting rebels do in Gotham City: by picking up the mantle of the Bat.\r\n\r\nAn exceptional fighter and detective, Batgirl is also unparalleled in her computer skills. With a Utility Belt filled with Batarangs and her own Batcycle to speed her across the city, she pursues justice regardless of whether others—including Batman—wish her to. But Gotham’s criminals are a ruthless and maniacal lot, and every moment she risks her neck means dancing closer to death.",
       "imgUrl": "https://orig00.deviantart.net/feda/f/2017/257/4/1/supergirl_and_streaky_by_artgerm-dbndewr.jpg",
       "id": "a4a435b8-b25f-4e18-ac16-43ee499e256c"
+    },
+    {
+      "name": "Batman",
+      "secretIdentity": "Bruce Wayne",
+      "bio": "Dark Knight. Caped Crusader. World’s Greatest Detective. Whatever you know him as, wherever you know him from—the blockbuster movies, TV shows, video games, cartoons, or millions of comics—Batman is proof you don’t need superpowers to be a superhero… and the poster boy for what a bad childhood can do to you.\r\n\r\nMillionaire Bruce Wayne was just a kid when he watched his parents get gunned down during a mugging in Gotham City. The crime would define his life, as he dedicated himself to becoming the world’s greatest weapon against crime—the Batman.\r\n\r\nForget his Batarangs, Batmobile, or Utility Belt filled with high-tech weapons. Batman is the most feared superhero of all, because he’s pushed himself to the absolute pinnacle of human achievement. He’s a brilliant detective who’s mastered fighting techniques the world’s barely heard of. An Olympic-caliber athlete with a plan for every occasion, Batman’s seemingly always five steps ahead of his foes. But in his crusade against injustice, two questions always loom: How far will he go to protect the innocent, and will he sacrifice his humanity along the way?",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/Batman-DC-Comics.jpg",
+      "id": "cd78deb1-0c59-4f1c-8c7d-e828aacf1e8f"
+    },
+    {
+      "name": "Krali Marko",
+      "secretIdentity": "Krali Marko",
+      "bio": "....",
+      "imgUrl": "...",
+      "id": "8c9f6f82-cd7a-482f-85e0-86c63e049851"
+    },
+    {
+      "name": "Nightwing",
+      "secretIdentity": "Dick Jason",
+      "bio": "asdasdasd",
+      "imgUrl": "https://static.comicvine.com/uploads/scale_small/8/82665/1886848-nightwing.png",
+      "id": "6366f766-a1fb-429f-b5ea-c44334b15d44"
     }
   ]
 }
