@@ -1,4 +1,4 @@
-/* globals data */
+/* globals data, loader */
 ( function() {
     var createSuperheroesList = function( superheroes ) {
         var $list = $( "<ul/>" )
